@@ -126,7 +126,7 @@ After setting up roles,
 remote servers authorized_keys in '/root/.ssh/' directory)
 create 'hosts.ini' and paste below content
 [elk]
-3.16.90.245 ansible_user=root
+3.16.xx.245 ansible_user=root
 and execute cmd as
 ansible-playbook -i hosts.ini elk_main.yml
 
