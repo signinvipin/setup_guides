@@ -64,7 +64,7 @@ to go to jupyterHub Server or Dashboard
 To get https instead of http for jupyterhub site
 we add below content as 
 proxy:
-  secretToken: "830561338d3df4c2166e2bec..............7ea5e87509bb0d883f3f7"
+  secretToken: "830561338d3df4c2166e2becxxxxxxxxxxxxxx7ea5e87509bb0d883f3f7"
   https:
     enabled: true
     hosts:
@@ -77,7 +77,7 @@ Then login to GoDaddy, Namecheap sites and
 Go to DNS settings or DNS management for domain and Add a new record like below
   Type: A
   Name/Host: "@" for root domain, or "www" for the www subdomain
-  Value/IP: Your external public IP address (e.g., 4.174.199.94)
+  Value/IP: Your external public IP address (e.g., 4.174.199.xx)
   TTL: Leave default, or set as needed. 
 Save the DNS record
 
