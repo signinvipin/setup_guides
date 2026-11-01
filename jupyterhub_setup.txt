@@ -64,7 +64,7 @@ to go to jupyterHub Server or Dashboard
 To get https instead of http for jupyterhub site
 we add below content as 
 proxy:
-  secretToken: "830561338d3df4c2166e2becxxxxxxxxxxxxxx7ea5e87509bb0d883f3f7"
+  secretToken: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
   https:
     enabled: true
     hosts:
